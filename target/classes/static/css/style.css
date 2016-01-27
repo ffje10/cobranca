@@ -25,7 +25,8 @@
 
 .aw-title-panel {
 	float: left;
-	padding-top: 2px;	
+	padding-top: 2px;
+	font-weight: bold;	
 }
 
 .copyright {
