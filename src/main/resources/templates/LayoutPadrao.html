@@ -5,6 +5,13 @@
 	
 	<head>
 		<meta charset="UTF-8" />
+		
+		<!-- Reforçando utf-8 para  responsividade (mobile) -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		<!-- Habilitando responsividade (mobile-bootstrap) -->
+    	<meta name="viewport" content="width=device-width" />
+    	
 		<title>Cobrança</title>
 		<link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
 		<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
@@ -13,7 +20,9 @@
 	<body>
 		<header layout:include="Cabecalho"></header>
 	
-		<section layout:fragment="conteudo"></section>
+		<section layout:fragment="conteudo">
+			<p>Conteúdo principal</p>
+		</section>
 		
 		<footer layout:include="Rodape"></footer>
 	

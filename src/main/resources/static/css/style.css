@@ -1,3 +1,17 @@
+/* Responsivo (mobile-bootstrap) */
+/* Tela grande */
+@media (min-width: 768px) {
+	.panel-default {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.alert {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
 .navbar {
 	background-color: #2e3436;
 	border: #2e3436 1px solid;
@@ -6,16 +20,6 @@
 
 .navbar-brand {
 	padding-top: 12px;
-}
-
-.panel-default {
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.alert {
-	margin-left: 10px;
-	margin-right: 10px;
 }
 
 .aw-link-panel {
