@@ -2,4 +2,4 @@
 
 >> Sistema para controle financeiro usando framework Spring Boot
 
-Aprendendo Spring MVC...
+Desenvolvido com base no workshop começando com spring.
